@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Sana Espacio Holístico</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!--encabezado-->
+    <header class="header" id="inicio">       
+        <img src="img/menu.svg" alt="" class="menu">
+        <nav class="navegar spread">
+            <a href="#inicio">Inicio 🌸</a>
+            <a href="#aboutUs">Instructores 👥</a>
+            <a href="#clases">Clases 🧘🏻‍♀️</a>
+            <a href="#beneficios">Beneficios 🙌</a>
+            <a href="#contacto">Contacto 📞</a>
+        </nav>
+        <div class="div head"> 
+            <h1 class="titulo">A•Sana Espacio Holístico</h1>
+            <p class="slogan">Un camino de luz para elevar tu energía y bienestar.</p>
+        </div>        
+    </header>
+
+    <main>        
+        <!--sección sobre instructores-->
+        <section class="quien contenedor" id="aboutUs">
+            <h2 class="subtitulo">Quiénes somos</h2>
+            <section class="about">
+                <div class="contenedor-quienes">
+                    <img src="img/maximiliano1.jpg" alt="">
+                    <h3 class="nombre">Maximiliano Botello</h3>
+                    <p>Instructor de Yoga y Meditación.<br>Facilitador de Reiki.</p>
+                </div>
+                <div class="contenedor-loto">
+                    <img src="img/loto.png" alt="">
+                </div>
+                <div class="contenedor-quienes">
+                    <img src="img/lucia1.jpg" alt="">
+                    <h3 class="nombre">Lucía Mendez Romero</h3>
+                    <p>Instructora de Yoga y Mindfulness.<br>Aromaterapeuta.</p>
+                </div>
+            </section>
+        </section>
+        
+        <!--sección sobre las tres clases que ofrecen-->
+        <section class="clases contenedor" id="clases">
+            <h2 class="subtitulo">¡Sumate a nuestras clases presenciales!</h2>
+            <div class="contenedor-clases">
+                <img src="img/lasClases1.svg" alt="clases"> 
+                <div class="listado-clases">
+                    <div class="lesson">
+                        <h3 class="nombre-clase">✔️ Hatha Yoga</h3>
+                        <p>Con esta práctica de Asanas (posturas corporales) y de Pranayama (respiración conciente) lograrás aumentar tu dominio físico y mental mediante ejercicios guiados.</p>
+                    </div>
+                    <div class="lesson">
+                        <h3 class="nombre-clase">✔️ Kundalini Yoga</h3>
+                        <p>Mediante asanas, pranayama, mantras, visualizaciones, sonidos y movimientos irás en búsqueda del despertar de la energía cósmica y de la conciencia en vos.</p>
+                    </div>
+                    <div class="lesson">
+                        <h3 class="nombre-clase">✔️ Meditación Guiada</h3>
+                        <p>Practicando la concentración de la mente y el aprender a fluír, vas a poder llegar a la conciencia plena y a una mejor gestión de emociones y dificultades.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--sección con sobre beneficios e imágenes ilustrativas.-->
+        <section class="slider" id="beneficios">
+            <h2 class="subtitulo">Principales Beneficios</h2>
+            <div class="slider__container container">
+                <img src="img/leftarrow.svg" class="slider__arrow" id="before">
+                <section class="slider__body slider__body--show" data-id="1">
+                    <div class="slider__text">
+                        <h2 class="beneficio"> Equilibrio entre el cuerpo y la mente.</h2>
+                        <p class="slider_review">
+                            Yoga proviene del sánscrito "jug" que significa "unir". Esta práctica milenaria une nuestra dimensión corporal y espiritual para lograr el equilibrio perfecto.                          
+                        </p>                        
+                    </div>
+                    <figure class="slider__picture">
+                        <img src="img/img1.jpg" alt="yoga" class="slider__img">
+                    </figure>
+                </section>
+                <section class="slider__body" data-id="2">
+                    <div class="slider__text">
+                        <h2 class="beneficio"> Tonificación flexibilidad y postura.</h2>
+                        <p class="slider_review">
+                            El Yoga ayuda a tonificar y estirar los músculos, también a mantener una postura correcta mediante posiciones y ejercicios con el uso de nuestro propio peso como resistencia.
+                        </p>                        
+                    </div>
+                    <figure class="slider__picture">
+                        <img src="img/img2.jpg" alt="yoga" class="slider__img">
+                    </figure>
+                </section>
+                <section class="slider__body" data-id="3">
+                    <div class="slider__text">
+                        <h2 class="beneficio"> Relajación y reducción de estrés.</h2>
+                        <p class="slider_review">
+                            Esta disciplina tiene un efecto modulador del sistema nervioso. Su práctica reduce la producción del cortisol (hormona liberada en respuesta al estrés).
+                        </p>                        
+                    </div>
+                    <figure class="slider__picture">
+                        <img src="img/img3.jpg" alt="yoga" class="slider__img">
+                    </figure>
+                </section>
+                
+                <img src="img/rightarrow.svg" class="slider__arrow" id="next">
+            </div>
+        </section>       
+
+    <!--info contacto y redes.-->
+    <footer id="contacto">        
+        <div class="contenedor footer-content">
+            <div class="asana">
+                <h2 class="nombre-local">A•Sana Espacio Holístico</h2>
+                <p>📍Pago Largo 1407, Paso de los Libres, Corrientes.</p>                
+            </div>
+            <div class="contact-media">
+                <a href="https://api.whatsapp.com/send?phone=5493772515048" class="contact-media-icon">
+                    <i class="bx bxl-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/asanayoga.hb/" class="contact-media-icon">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+                <a href="https://goo.gl/maps/WnGtQApjoCqzsECE7" class="contact-media-icon">
+                    <i class='bx bx-map'></i>
+                </a>                
+            </div>
+        </div>
+        <div class="line"></div> 
+    </footer>
+
+    <!--archivos JavaScript.-->
+    <script src="js/menu.js"></script>
+    <script src="js/sliders.js"></script>
+</body>
+</html>
